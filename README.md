@@ -23,22 +23,27 @@ La navegació entre pantalles es gestiona amb JavaScript, i l’aplicació està
    cd nom-del-repo
 
 3. Instal·la les dependències:
+   ```bash
    npm install
    
-4. Executa el projecte en mode desenvolupament:
+5. Executa el projecte en mode desenvolupament:
+   ```bash
    npm run dev
    
 ## Executar a Android
 1. Instal·la dependències (si no s’ha fet abans):
+   ```bash
    npm install
 
-2. Sincronitza Capacitor:
+3. Sincronitza Capacitor:
+   ```bash
    npx cap sync
 
-3. Obre el projecte a Android Studio:
+5. Obre el projecte a Android Studio:
+   ```bash
    npx cap open android
    
-4. Executar l’app en un emulador o dispositiu físic.
+7. Executar l’app en un emulador o dispositiu físic.
    
 ## Llicència 
 Aquest projecte està publicat sota la llicència MIT.
