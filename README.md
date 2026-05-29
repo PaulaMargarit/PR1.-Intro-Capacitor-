@@ -1,5 +1,5 @@
 # PR1. Intro Capacitor
-## Funcionament
+## Descripció
 L’aplicació permet a l’usuari seleccionar una imatge de la galeria del dispositiu i extreure’n automàticament una paleta de colors mitjançant la llibreria *ColorThief*. A partir d’aquesta paleta, la Pantalla 3 genera una composició visual dinàmica utilitzant **p5.js**, dibuixant cercles aleatoris amb els colors obtinguts.
 
 El projecte incorpora un **mode clar/fosc**, que modifica tant la interfície com el fons del canvas. L’estat del mode nit i la paleta seleccionada es guarden al `localStorage`, de manera que es mantenen encara que l’usuari tanqui l’aplicació.
@@ -7,7 +7,6 @@ El projecte incorpora un **mode clar/fosc**, que modifica tant la interfície co
 La navegació entre pantalles es gestiona amb JavaScript, i l’aplicació està preparada per executar-se tant al navegador com en un dispositiu Android gràcies a **Capacitor**. A Android, l’usuari pot accedir a la galeria mitjançant el plugin oficial de la càmera.
 
 ## Tecnologies utilitzades
-- p5.js
 - Java Script
 - HTML / CSS
 - p5.js
@@ -33,7 +32,7 @@ La navegació entre pantalles es gestiona amb JavaScript, i l’aplicació està
 2. Sincronitza Capacitor:
    npx cap sync
 
-3. Obra el projecte a Android Studio:
+3. Obre el projecte a Android Studio:
    npx cap open android
    
 4. Executar l’app en un emulador o dispositiu físic.
