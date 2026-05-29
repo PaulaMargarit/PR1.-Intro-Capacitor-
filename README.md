@@ -1,4 +1,6 @@
 # PR1. Intro Capacitor
+Autor: **Paula Margarit Corominas**
+
 ## Descripció
 L’aplicació permet a l’usuari seleccionar una imatge de la galeria del dispositiu i extreure’n automàticament una paleta de colors mitjançant la llibreria *ColorThief*. A partir d’aquesta paleta, la Pantalla 3 genera una composició visual dinàmica utilitzant **p5.js**, dibuixant cercles aleatoris amb els colors obtinguts.
 
@@ -37,7 +39,5 @@ La navegació entre pantalles es gestiona amb JavaScript, i l’aplicació està
    
 4. Executar l’app en un emulador o dispositiu físic.
    
-## Autora
-Projecte realitzat per Paula Margarit Corominas.
 ## Llicència 
 Aquest projecte està publicat sota la llicència MIT.
