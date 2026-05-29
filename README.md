@@ -19,9 +19,10 @@ La navegació entre pantalles es gestiona amb JavaScript, i l’aplicació està
 
 ## Instal·lació
 1. Entra al directori del projecte:
+   ```bash
    cd nom-del-repo
 
-2. Instal·la les dependències:
+3. Instal·la les dependències:
    npm install
    
 4. Executa el projecte en mode desenvolupament:
